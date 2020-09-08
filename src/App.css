@@ -61,6 +61,17 @@
   padding:20px;
 }
 
+.card {
+  display: flex;
+  justify-content: space-around ;
+}
+
+.card > img {
+  height: 150px;
+  object-fit: contain;
+  width: 300px;
+}
+
 @media (min-width: 767px) {
   .container {
     width:767px;
